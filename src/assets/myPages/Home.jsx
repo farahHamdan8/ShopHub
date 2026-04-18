@@ -6,8 +6,8 @@ export default function Home() {
     const products = getProducts();
 
     return (
-            <div className="home h-full px-4 m-auto  w-full py-10">
-                <div className="container h-full mb-20">
+            <div className="home h-full px-4  w-full py-10">
+                <div className="container mx-auto h-full mb-20">
                     <div className="text text-center mx-auto mb-10">
                         <div className="heading  font-medium sm:text-3xl  mt-25 -ml-5">Welcome to ShopHub</div>
                         <p className="my-3 text-mist-500  text-[14px]">Discover amazing products at great price</p>
