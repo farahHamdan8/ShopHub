@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+    --color-main: #000;
+}
+
+@layer components {
+    .btn {
+        @apply  rounded-[3px] shadow-2xs text-white px-4 py-1 
+    }
+    .error {
+        @apply bg-red-200 text-gray-800 py-1 px-15 text-sm w-full h-8
+    }
+    .symbol {
+        @apply bg-white border-[0.1px] border-mauve-300 w-5 h-5 pb-0.5 shadow-xl flex justify-center items-center;
+    }
+}
+@layer base {
+    h1 {
+        @apply m-2
+    }
+}
+body {
+    background-color: #eee;
+}
+a ,
+button {
+    outline: none;
+    cursor: pointer;
+}
