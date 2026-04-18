@@ -4,7 +4,7 @@ const products = [
         id: 1,
         name: "Wireless Headphones",
         price: 99.99,
-        image: "./img/one.jpg",
+        image: "/img/one.jpg",
         description: "Lorem  adipisicing elit. Deserunt facere eum, atque tenetur totam nemo praesentium quasi? Animi assumenda harum amet voluptatum sequi explicabo, repellendus earum neque perspiciatis unde in?"
     },
 
